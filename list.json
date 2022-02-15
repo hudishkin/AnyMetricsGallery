@@ -1,0 +1,42 @@
+[
+   {
+      "name":"Crypto",
+      "tags":"crypto,coins,eth,bitcoin",
+      "metrics":[
+         {
+            "id":"28660510-775b-11ec-90d6-0242ac120003",
+            "title":"TRX Price",
+            "maxValueLength":5,
+            "style":{
+               "symbol":"TRX"
+            },
+            "paramName":"Price, $",
+            "lastValue":"",
+            "request":{
+               "url":"https://api.coincap.io/v2/assets/tron",
+               "headers":{},
+               "method":"GET"
+            },
+            "type":"json",
+            "parseRules":"data.priceUsd"
+         },
+         {
+            "id":"28660510-775b-11ec-90d6-0242ac120023",
+            "title":"Doge",
+            "maxValueLength":5,
+            "style":{
+               "symbol":"DOGE"
+            },
+            "paramName":"Price, $",
+            "lastValue":"",
+            "request":{
+               "url":"https://api.coincap.io/v2/assets/dogecoin",
+               "headers":{},
+               "method":"GET"
+            },
+            "type":"json",
+            "parseRules":"data.priceUsd"
+         }
+      ]
+   }
+]
