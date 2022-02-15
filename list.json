@@ -3,6 +3,26 @@
       "name":"Crypto",
       "tags":"crypto,coins,eth,bitcoin",
       "metrics":[
+      	{
+            "id":"28660510-775b-11ec-90d6-1242ac120003",
+            "title":"Bitcoin",
+            "maxValueLength":5,
+            "style":{
+               "symbol":"BTC"
+            },
+            "paramName":"Price, $",
+            "lastValue":"",
+            "request":{
+               "url":"https://api.coincap.io/v2/assets/bitcoin",
+               "headers":{},
+               "method":"GET"
+            },
+            "type":"json",
+            "parseRules":"data.priceUsd",
+            "website": "https://bitcoin.org/",
+            "author": "Coincap"
+
+         },
          {
             "id":"28660510-775b-11ec-90d6-0242ac120003",
             "title":"TRX Price",
@@ -19,8 +39,8 @@
             },
             "type":"json",
             "parseRules":"data.priceUsd",
-            "website": "https://coincap.io/assets/dogecoin",
-            "description": "Dogecoin - это одноранговая цифровая валюта с открытым исходным кодом, предпочитаемая Сиба-инусами во всем мире."
+            "website": "https://tron.network/"
+
          },
          {
             "id":"28660510-775b-11ec-90d6-0242ac120023",
@@ -37,7 +57,10 @@
                "method":"GET"
             },
             "type":"json",
-            "parseRules":"data.priceUsd"
+            "parseRules":"data.priceUsd",
+            "website": "https://coincap.io/assets/dogecoin",
+            "author": "Coincap",
+            "description": "Dogecoin - это одноранговая цифровая валюта с открытым исходным кодом, предпочитаемая Сиба-инусами во всем мире."
          }
       ]
    }
