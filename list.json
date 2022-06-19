@@ -6,7 +6,10 @@
       	{
             "id":"28660510-775b-11ec-90d6-1242ac120003",
             "title":"Bitcoin",
-            "maxValueLength":5,
+            "formatter": {
+               "fraction": 3,
+               "format": "currency"
+            },
             "style":{
                "symbol":"BTC"
             },
@@ -26,7 +29,10 @@
          {
             "id":"28660510-775b-11ec-90d6-0242ac120003",
             "title":"TRX Price",
-            "maxValueLength":5,
+            "formatter": {
+               "fraction": 4,
+               "format": "currency"
+            },
             "style":{
                "symbol":"TRX"
             },
@@ -45,7 +51,10 @@
          {
             "id":"28660510-775b-11ec-90d6-0242ac120023",
             "title":"Doge",
-            "maxValueLength":5,
+            "formatter": {
+               "fraction": 3,
+               "format": "currency"
+            },
             "style":{
                "symbol":"DOGE"
             },
