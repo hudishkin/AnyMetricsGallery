@@ -11,7 +11,7 @@
                "format": "currency"
             },
             "paramName":"Price, USD",
-            "lastValue":"",
+            "rawValue":"",
             "request":{
                "url":"https://api.coincap.io/v2/assets/bitcoin",
                "headers":{},
@@ -31,7 +31,7 @@
                "format": "currency"
             },
             "paramName":"Price, USD",
-            "lastValue":"",
+            "rawValue":"",
             "request":{
                "url":"https://api.coincap.io/v2/assets/tron",
                "headers":{},
@@ -50,7 +50,7 @@
                "format": "currency"
             },
             "paramName":"Price, USD",
-            "lastValue":"",
+            "rawValue":"",
             "request":{
                "url":"https://api.coincap.io/v2/assets/dogecoin",
                "headers":{},
@@ -65,17 +65,17 @@
       ]
    },
    {
-      "name":"Other",
-      "tags":"",
+      "name":"COVID",
+      "tags":"us,covid",
       "metrics":[
          {
-            "id":"18660510-775b-11ec-90d6-1242ac120120",
-            "title":"COVID - US",
+            "id":"c853c2e3-d20f-4a09-ac43-d419f78ddda5",
+            "title":"COVID",
             "formatter": {
                "format": "none"
             },
-            "paramName":"Death",
-            "lastValue":"0",
+            "paramName":"Death in US",
+            "rawValue":"0",
             "request":{
                "url":"https://api.covidtracking.com/v1/us/current.json",
                "headers":{},
@@ -86,13 +86,13 @@
 
          },
          {
-            "id":"18660510-775b-11ec-90d6-1242ac120120",
-            "title":"COVID - US",
+            "id":"1c6c219c4-b4e1-46e1-ad55-9c0b027a9404",
+            "title":"COVID",
             "formatter": {
                "format": "none"
             },
-            "paramName":"Daily death",
-            "lastValue":"0",
+            "paramName":"Daily death in US",
+            "rawValue":"0",
             "request":{
                "url":"https://api.covidtracking.com/v1/us/current.json",
                "headers":{},
