@@ -82,7 +82,8 @@
                "method":"GET"
             },
             "parseRules":"0.death",
-            "type":"json"
+            "type":"json",
+            "website": "https://covidtracking.com/"
 
          },
          {
@@ -99,7 +100,8 @@
                "method":"GET"
             },
             "parseRules":"0.deathIncrease",
-            "type":"json"
+            "type":"json",
+            "website": "https://covidtracking.com/"
 
          }
       ]
