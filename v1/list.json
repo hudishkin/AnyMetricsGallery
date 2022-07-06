@@ -2124,7 +2124,7 @@
 					"format": "currency"
 				},
 				"rules": {
-					"type": "contain",
+					"type": "contains",
 					"parseRules": ".page-status .status",
 					"value": "All Systems Operational"
 				},
