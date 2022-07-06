@@ -2125,7 +2125,8 @@
 				},
 				"rules": {
 					"type": "contain",
-					"parseRules": ".page-status .status"
+					"parseRules": ".page-status .status",
+					"value": "All Systems Operational"
 				},
 				"website": "https://figma.com/"
 			}
