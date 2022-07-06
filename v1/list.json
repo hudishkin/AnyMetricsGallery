@@ -2104,5 +2104,32 @@
 				"author": "Coincap"
 			}
 		]
+	},
+	{
+		"name": "Serivce Status",
+		"tags": "status,serivce,available,downtown",
+		"metrics": [
+			{
+				"id": "6db1649a-e1fd-49a2-94e5-eaf5c336ff5b",
+				"title": "Figma",
+				"measure": "Service status",
+				"type": "web",
+				"request": {
+					"url": "https://status.figma.com",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 3,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "contain",
+					"parseRules": ".page-status .status"
+				},
+				"website": "https://figma.com/"
+			}
+		]
 	}
+
 ]
