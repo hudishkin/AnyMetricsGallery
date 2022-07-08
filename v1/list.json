@@ -1,5 +1,52 @@
 [
 	{
+		"name": "Currency",
+		"tags": "currency,usd,rub",
+		"metrics": [
+			{
+				"id": "6db1649a-e1fd-49a2-94e1-eaf5c336ff5b",
+				"title": "USD",
+				"measure": "to Ruble",
+				"type": "json",
+				"request": {
+					"url": "https://raw.githubusercontent.com/fawazahmed0/currency-api/1/latest/currencies/usd/rub.json",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 2,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "rub"
+				},
+				"website": "https://github.com/fawazahmed0/currency-api"
+			},
+			{
+				"id": "6db1649a-e1fd-49a2-94e1-eaf5c336ff1b",
+				"title": "RUB",
+				"measure": "to USD",
+				"type": "json",
+				"request": {
+					"url": "https://raw.githubusercontent.com/fawazahmed0/currency-api/1/latest/currencies/rub/usd.json",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 2,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "usd"
+				},
+				"website": "https://github.com/fawazahmed0/currency-api"
+			}
+			
+		]
+	},
+	{
 		"name": "Cryptocurrency",
 		"tags": "crypto,coins,eth,bitcoin",
 		"metrics": [
