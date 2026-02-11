@@ -26,10 +26,10 @@
         },
         "rules": {
           "type": "none",
-          "parseRules": "data.priceUsd"
+          "parseRules": "bitcoin.usd"
         },
-        "website": "https://coincap.io/",
-        "author": "Coincap"
+        "website": "https://coingecko.com/",
+        "author": "CoinGecko"
       }
     ]
   }
