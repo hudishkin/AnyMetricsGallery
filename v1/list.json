@@ -9,7 +9,7 @@
 				"measure": "to Ruble",
 				"type": "json",
 				"request": {
-					"url": "https://raw.githubusercontent.com/fawazahmed0/currency-api/1/latest/currencies/usd/rub.json",
+					"url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json",
 					"headers": {},
 					"method": "GET"
 				},
@@ -19,7 +19,7 @@
 				},
 				"rules": {
 					"type": "none",
-					"parseRules": "rub"
+					"parseRules": "usd.rub"
 				},
 				"website": "https://github.com/fawazahmed0/currency-api"
 			},
@@ -29,7 +29,7 @@
 				"measure": "to USD",
 				"type": "json",
 				"request": {
-					"url": "https://raw.githubusercontent.com/fawazahmed0/currency-api/1/latest/currencies/rub/usd.json",
+					"url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/rub.json",
 					"headers": {},
 					"method": "GET"
 				},
@@ -39,7 +39,7 @@
 				},
 				"rules": {
 					"type": "none",
-					"parseRules": "usd"
+					"parseRules": "rub.usd"
 				},
 				"website": "https://github.com/fawazahmed0/currency-api"
 			}
@@ -56,7 +56,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitcoin",
+					"url": "https://rest.coincap.io/v3/assets/bitcoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -77,7 +77,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ethereum",
+					"url": "https://rest.coincap.io/v3/assets/ethereum",
 					"headers": {},
 					"method": "GET"
 				},
@@ -98,7 +98,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ripple",
+					"url": "https://rest.coincap.io/v3/assets/ripple",
 					"headers": {},
 					"method": "GET"
 				},
@@ -119,7 +119,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitcoin-cash",
+					"url": "https://rest.coincap.io/v3/assets/bitcoin-cash",
 					"headers": {},
 					"method": "GET"
 				},
@@ -140,7 +140,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/eos",
+					"url": "https://rest.coincap.io/v3/assets/eos",
 					"headers": {},
 					"method": "GET"
 				},
@@ -161,7 +161,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/stellar",
+					"url": "https://rest.coincap.io/v3/assets/stellar",
 					"headers": {},
 					"method": "GET"
 				},
@@ -182,7 +182,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/litecoin",
+					"url": "https://rest.coincap.io/v3/assets/litecoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -203,7 +203,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/cardano",
+					"url": "https://rest.coincap.io/v3/assets/cardano",
 					"headers": {},
 					"method": "GET"
 				},
@@ -224,7 +224,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/tether",
+					"url": "https://rest.coincap.io/v3/assets/tether",
 					"headers": {},
 					"method": "GET"
 				},
@@ -245,7 +245,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/iota",
+					"url": "https://rest.coincap.io/v3/assets/iota",
 					"headers": {},
 					"method": "GET"
 				},
@@ -266,7 +266,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/tron",
+					"url": "https://rest.coincap.io/v3/assets/tron",
 					"headers": {},
 					"method": "GET"
 				},
@@ -287,7 +287,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ethereum-classic",
+					"url": "https://rest.coincap.io/v3/assets/ethereum-classic",
 					"headers": {},
 					"method": "GET"
 				},
@@ -308,7 +308,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/monero",
+					"url": "https://rest.coincap.io/v3/assets/monero",
 					"headers": {},
 					"method": "GET"
 				},
@@ -329,7 +329,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/neo",
+					"url": "https://rest.coincap.io/v3/assets/neo",
 					"headers": {},
 					"method": "GET"
 				},
@@ -350,7 +350,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/dash",
+					"url": "https://rest.coincap.io/v3/assets/dash",
 					"headers": {},
 					"method": "GET"
 				},
@@ -371,7 +371,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/binance-coin",
+					"url": "https://rest.coincap.io/v3/assets/binance-coin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -392,7 +392,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/nem",
+					"url": "https://rest.coincap.io/v3/assets/nem",
 					"headers": {},
 					"method": "GET"
 				},
@@ -413,7 +413,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/tezos",
+					"url": "https://rest.coincap.io/v3/assets/tezos",
 					"headers": {},
 					"method": "GET"
 				},
@@ -434,7 +434,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/zcash",
+					"url": "https://rest.coincap.io/v3/assets/zcash",
 					"headers": {},
 					"method": "GET"
 				},
@@ -455,7 +455,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/omisego",
+					"url": "https://rest.coincap.io/v3/assets/omisego",
 					"headers": {},
 					"method": "GET"
 				},
@@ -476,7 +476,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/vechain",
+					"url": "https://rest.coincap.io/v3/assets/vechain",
 					"headers": {},
 					"method": "GET"
 				},
@@ -497,7 +497,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/qtum",
+					"url": "https://rest.coincap.io/v3/assets/qtum",
 					"headers": {},
 					"method": "GET"
 				},
@@ -518,7 +518,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/0x",
+					"url": "https://rest.coincap.io/v3/assets/0x",
 					"headers": {},
 					"method": "GET"
 				},
@@ -539,7 +539,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitcoin-gold",
+					"url": "https://rest.coincap.io/v3/assets/bitcoin-gold",
 					"headers": {},
 					"method": "GET"
 				},
@@ -560,7 +560,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bytecoin-bcn",
+					"url": "https://rest.coincap.io/v3/assets/bytecoin-bcn",
 					"headers": {},
 					"method": "GET"
 				},
@@ -581,7 +581,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitshares",
+					"url": "https://rest.coincap.io/v3/assets/bitshares",
 					"headers": {},
 					"method": "GET"
 				},
@@ -602,7 +602,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/lisk",
+					"url": "https://rest.coincap.io/v3/assets/lisk",
 					"headers": {},
 					"method": "GET"
 				},
@@ -623,7 +623,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/decred",
+					"url": "https://rest.coincap.io/v3/assets/decred",
 					"headers": {},
 					"method": "GET"
 				},
@@ -644,7 +644,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/zilliqa",
+					"url": "https://rest.coincap.io/v3/assets/zilliqa",
 					"headers": {},
 					"method": "GET"
 				},
@@ -665,7 +665,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/aeternity",
+					"url": "https://rest.coincap.io/v3/assets/aeternity",
 					"headers": {},
 					"method": "GET"
 				},
@@ -686,7 +686,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/maker",
+					"url": "https://rest.coincap.io/v3/assets/maker",
 					"headers": {},
 					"method": "GET"
 				},
@@ -707,7 +707,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/digibyte",
+					"url": "https://rest.coincap.io/v3/assets/digibyte",
 					"headers": {},
 					"method": "GET"
 				},
@@ -728,7 +728,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/icon",
+					"url": "https://rest.coincap.io/v3/assets/icon",
 					"headers": {},
 					"method": "GET"
 				},
@@ -749,7 +749,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ontology",
+					"url": "https://rest.coincap.io/v3/assets/ontology",
 					"headers": {},
 					"method": "GET"
 				},
@@ -770,7 +770,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/dogecoin",
+					"url": "https://rest.coincap.io/v3/assets/dogecoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -791,7 +791,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/augur",
+					"url": "https://rest.coincap.io/v3/assets/augur",
 					"headers": {},
 					"method": "GET"
 				},
@@ -812,7 +812,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/steem",
+					"url": "https://rest.coincap.io/v3/assets/steem",
 					"headers": {},
 					"method": "GET"
 				},
@@ -833,7 +833,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/moac",
+					"url": "https://rest.coincap.io/v3/assets/moac",
 					"headers": {},
 					"method": "GET"
 				},
@@ -854,7 +854,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/verge",
+					"url": "https://rest.coincap.io/v3/assets/verge",
 					"headers": {},
 					"method": "GET"
 				},
@@ -875,7 +875,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/siacoin",
+					"url": "https://rest.coincap.io/v3/assets/siacoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -896,7 +896,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bytom",
+					"url": "https://rest.coincap.io/v3/assets/bytom",
 					"headers": {},
 					"method": "GET"
 				},
@@ -917,7 +917,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/basic-attention-token",
+					"url": "https://rest.coincap.io/v3/assets/basic-attention-token",
 					"headers": {},
 					"method": "GET"
 				},
@@ -938,7 +938,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitcoin-diamond",
+					"url": "https://rest.coincap.io/v3/assets/bitcoin-diamond",
 					"headers": {},
 					"method": "GET"
 				},
@@ -959,7 +959,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/hshare",
+					"url": "https://rest.coincap.io/v3/assets/hshare",
 					"headers": {},
 					"method": "GET"
 				},
@@ -980,7 +980,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/rchain",
+					"url": "https://rest.coincap.io/v3/assets/rchain",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1001,7 +1001,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/golem-network-tokens",
+					"url": "https://rest.coincap.io/v3/assets/golem-network-tokens",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1022,7 +1022,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/kucoin-shares",
+					"url": "https://rest.coincap.io/v3/assets/kucoin-shares",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1043,7 +1043,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/nano",
+					"url": "https://rest.coincap.io/v3/assets/nano",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1064,7 +1064,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/stratis",
+					"url": "https://rest.coincap.io/v3/assets/stratis",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1085,7 +1085,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/status",
+					"url": "https://rest.coincap.io/v3/assets/status",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1106,7 +1106,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/pundi-x",
+					"url": "https://rest.coincap.io/v3/assets/pundi-x",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1127,7 +1127,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/waves",
+					"url": "https://rest.coincap.io/v3/assets/waves",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1148,7 +1148,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/populous",
+					"url": "https://rest.coincap.io/v3/assets/populous",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1169,7 +1169,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/mithril",
+					"url": "https://rest.coincap.io/v3/assets/mithril",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1190,7 +1190,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/iostoken",
+					"url": "https://rest.coincap.io/v3/assets/iostoken",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1211,7 +1211,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/maidsafecoin",
+					"url": "https://rest.coincap.io/v3/assets/maidsafecoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1232,7 +1232,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/komodo",
+					"url": "https://rest.coincap.io/v3/assets/komodo",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1253,7 +1253,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/digixdao",
+					"url": "https://rest.coincap.io/v3/assets/digixdao",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1274,7 +1274,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/waltonchain",
+					"url": "https://rest.coincap.io/v3/assets/waltonchain",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1295,7 +1295,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/huobi-token",
+					"url": "https://rest.coincap.io/v3/assets/huobi-token",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1316,7 +1316,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/gxchain",
+					"url": "https://rest.coincap.io/v3/assets/gxchain",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1337,7 +1337,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/kin",
+					"url": "https://rest.coincap.io/v3/assets/kin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1358,7 +1358,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/aelf",
+					"url": "https://rest.coincap.io/v3/assets/aelf",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1379,7 +1379,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ardor",
+					"url": "https://rest.coincap.io/v3/assets/ardor",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1400,7 +1400,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/wanchain",
+					"url": "https://rest.coincap.io/v3/assets/wanchain",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1421,7 +1421,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/metaverse",
+					"url": "https://rest.coincap.io/v3/assets/metaverse",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1442,7 +1442,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/monacoin",
+					"url": "https://rest.coincap.io/v3/assets/monacoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1463,7 +1463,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/aion",
+					"url": "https://rest.coincap.io/v3/assets/aion",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1484,7 +1484,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/dentacoin",
+					"url": "https://rest.coincap.io/v3/assets/dentacoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1505,7 +1505,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/funfair",
+					"url": "https://rest.coincap.io/v3/assets/funfair",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1526,7 +1526,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bancor",
+					"url": "https://rest.coincap.io/v3/assets/bancor",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1547,7 +1547,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/zencash",
+					"url": "https://rest.coincap.io/v3/assets/zencash",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1568,7 +1568,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/holo",
+					"url": "https://rest.coincap.io/v3/assets/holo",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1589,7 +1589,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/decentraland",
+					"url": "https://rest.coincap.io/v3/assets/decentraland",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1610,7 +1610,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bitcoin-private",
+					"url": "https://rest.coincap.io/v3/assets/bitcoin-private",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1631,7 +1631,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/nebulas-token",
+					"url": "https://rest.coincap.io/v3/assets/nebulas-token",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1652,7 +1652,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/monaco",
+					"url": "https://rest.coincap.io/v3/assets/monaco",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1673,7 +1673,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/emercoin",
+					"url": "https://rest.coincap.io/v3/assets/emercoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1694,7 +1694,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/wax",
+					"url": "https://rest.coincap.io/v3/assets/wax",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1715,7 +1715,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/dropil",
+					"url": "https://rest.coincap.io/v3/assets/dropil",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1736,7 +1736,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/cryptonex",
+					"url": "https://rest.coincap.io/v3/assets/cryptonex",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1757,7 +1757,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/loopring",
+					"url": "https://rest.coincap.io/v3/assets/loopring",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1778,7 +1778,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/odem",
+					"url": "https://rest.coincap.io/v3/assets/odem",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1799,7 +1799,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/ark",
+					"url": "https://rest.coincap.io/v3/assets/ark",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1820,7 +1820,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/kyber-network",
+					"url": "https://rest.coincap.io/v3/assets/kyber-network",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1841,7 +1841,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/power-ledger",
+					"url": "https://rest.coincap.io/v3/assets/power-ledger",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1862,7 +1862,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/reddcoin",
+					"url": "https://rest.coincap.io/v3/assets/reddcoin",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1883,7 +1883,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/mybit-token",
+					"url": "https://rest.coincap.io/v3/assets/mybit-token",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1904,7 +1904,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/chainlink",
+					"url": "https://rest.coincap.io/v3/assets/chainlink",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1925,7 +1925,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/nxt",
+					"url": "https://rest.coincap.io/v3/assets/nxt",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1946,7 +1946,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/gas",
+					"url": "https://rest.coincap.io/v3/assets/gas",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1967,7 +1967,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/pivx",
+					"url": "https://rest.coincap.io/v3/assets/pivx",
 					"headers": {},
 					"method": "GET"
 				},
@@ -1988,7 +1988,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/polymath-network",
+					"url": "https://rest.coincap.io/v3/assets/polymath-network",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2009,7 +2009,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/loom-network",
+					"url": "https://rest.coincap.io/v3/assets/loom-network",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2030,7 +2030,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/tenx",
+					"url": "https://rest.coincap.io/v3/assets/tenx",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2051,7 +2051,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/theta-token",
+					"url": "https://rest.coincap.io/v3/assets/theta-token",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2072,7 +2072,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/cybermiles",
+					"url": "https://rest.coincap.io/v3/assets/cybermiles",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2093,7 +2093,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/elastos",
+					"url": "https://rest.coincap.io/v3/assets/elastos",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2114,7 +2114,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/nuls",
+					"url": "https://rest.coincap.io/v3/assets/nuls",
 					"headers": {},
 					"method": "GET"
 				},
@@ -2135,7 +2135,7 @@
 				"measure": "Price, USD",
 				"type": "json",
 				"request": {
-					"url": "https://api.coincap.io/v2/assets/bibox-token",
+					"url": "https://rest.coincap.io/v3/assets/bibox-token",
 					"headers": {},
 					"method": "GET"
 				},

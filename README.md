@@ -16,7 +16,7 @@
         "measure": "Price, USD",
         "type": "json",
         "request": {
-          "url": "https://api.coincap.io/v2/assets/bitcoin",
+          "url": "https://rest.coincap.io/v3/assets/bitcoin",
           "headers": {},
           "method": "GET"
         },
