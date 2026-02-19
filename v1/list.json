@@ -95,7 +95,7 @@
 				},
 				"rules": {
 					"type": "none",
-					"parseRules": "stargazers.*count"
+					"parseRules": "stargazers_count"
 				},
 				"website": "https://github.com/hudishkin/AnyMetrics",
 				"author": "GitHub"
