@@ -1,6 +1,6 @@
 [
 	{
-		"name": "AI Services",
+		"name": "AI Services (Need API key)",
 		"tags": "ai,openai,anthropic,grok,xai,balance,usage,billing",
 		"metrics": [
 			{
@@ -76,7 +76,7 @@
 		]
 	},
 	{
-		"name": "GitHub",
+		"name": "GitHub (Example)",
 		"tags": "github,stars,forks,issues,repository,repo,open source",
 		"metrics": [
 			{
