@@ -1,5 +1,193 @@
 [
 	{
+		"name": "Daily Inspiration",
+		"tags": "daily,today,inspiration,picture,wallpaper,bing,quote,phrase,fact,word,english,картинка дня,фото дня,фраза дня,цитата дня,факт дня,слово дня,вдохновение",
+		"metrics": [
+			{
+				"id": "81c8a603-e56e-486f-8a81-b7ef404482ec",
+				"title": "Picture of the Day",
+				"measure": "Bing Wallpaper",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://bing.biturl.top/?resolution=1366&format=image&index=0&mkt=en-US",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 86400,
+				"description": "Today's Bing wallpaper. Refreshes once a day; no API key required.",
+				"website": "https://github.com/TimothyYe/bing-wallpaper",
+				"author": "Bing / Timothy Ye"
+			},
+			{
+				"id": "b9e3e57c-a3aa-46d9-8537-0e5c22c07e3a",
+				"title": "Quote of the Day",
+				"measure": "English · ZenQuotes",
+				"type": "json",
+				"request": {
+					"url": "https://zenquotes.io/api/today",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "0.q"
+				},
+				"interval": 86400,
+				"description": "A daily inspirational quote in English, provided by ZenQuotes. No API key required.",
+				"website": "https://zenquotes.io/",
+				"author": "ZenQuotes"
+			},
+			{
+				"id": "b132be3d-79e0-40bb-bf61-006e8eab84c4",
+				"title": "Fact of the Day",
+				"measure": "English · Trivia",
+				"type": "json",
+				"request": {
+					"url": "https://uselessfacts.jsph.pl/api/v2/facts/today?language=en",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "text"
+				},
+				"interval": 86400,
+				"description": "A curious fact in English, selected daily by Random Useless Facts. No API key required.",
+				"website": "https://uselessfacts.jsph.pl/",
+				"author": "Random Useless Facts"
+			},
+			{
+				"id": "3f452575-a513-46f6-b338-4c36b936d680",
+				"title": "Word of the Day",
+				"measure": "English · Vocabulary",
+				"type": "web",
+				"request": {
+					"url": "https://wordsmith.org/words/today.html",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "h3"
+				},
+				"interval": 86400,
+				"description": "An English word from A.Word.A.Day. Open Wordsmith for its definition and pronunciation.",
+				"website": "https://wordsmith.org/words/today.html",
+				"author": "Wordsmith / Anu Garg"
+			}
+		]
+	},
+	{
+		"name": "Random Discoveries",
+		"tags": "random,photo,picture,cat,cats,advice,affirmation,motivation,inspiration,случайное фото,картинка,кот,котик,совет,аффирмация,поддержка,мотивация",
+		"metrics": [
+			{
+				"id": "8276d76e-a2ce-458f-a9ba-cc5b64006851",
+				"title": "Random Photo",
+				"measure": "Photography",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://picsum.photos/800/800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random photograph from Lorem Picsum. Refreshes every 6 hours; manual refresh may change the image.",
+				"website": "https://picsum.photos/",
+				"author": "Lorem Picsum"
+			},
+			{
+				"id": "94f79fb2-3f05-4fb2-9347-c3115e064c0d",
+				"title": "Random Cat",
+				"measure": "Cat Photo",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://cataas.com/cat?width=800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random cat from Cat as a Service. Refreshes every 6 hours; manual refresh may bring another cat.",
+				"website": "https://cataas.com/",
+				"author": "Cat as a Service"
+			},
+			{
+				"id": "95555d76-edbe-46c7-b6fb-9ecf4b8ee867",
+				"title": "Random Advice",
+				"measure": "English · Short Advice",
+				"type": "json",
+				"request": {
+					"url": "https://api.adviceslip.com/advice",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "slip.advice"
+				},
+				"interval": 21600,
+				"description": "A random short piece of advice in English. Refreshes every 6 hours; no API key required.",
+				"website": "https://api.adviceslip.com/",
+				"author": "Advice Slip"
+			},
+			{
+				"id": "2f3ceada-bb37-4169-b8bf-de1e43aab3cf",
+				"title": "Random Affirmation",
+				"measure": "English · Encouragement",
+				"type": "json",
+				"request": {
+					"url": "https://www.affirmations.dev/",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "affirmation"
+				},
+				"interval": 21600,
+				"description": "A random encouraging phrase in English. Refreshes every 6 hours; no API key required.",
+				"website": "https://github.com/annthurium/affirmations",
+				"author": "Affirmations"
+			}
+		]
+	},
+	{
 		"name": "AI Services (Need API key)",
 		"tags": "ai,openai,anthropic,grok,xai,balance,usage,billing",
 		"metrics": [
