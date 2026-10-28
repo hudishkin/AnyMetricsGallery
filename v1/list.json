@@ -4,28 +4,6 @@
 		"tags": "daily,today,inspiration,picture,wallpaper,bing,quote,phrase,fact,word,english,картинка дня,фото дня,фраза дня,цитата дня,факт дня,слово дня,вдохновение",
 		"metrics": [
 			{
-				"id": "81c8a603-e56e-486f-8a81-b7ef404482ec",
-				"title": "Picture of the Day",
-				"measure": "Bing Wallpaper",
-				"type": "web",
-				"resultKind": "image",
-				"request": {
-					"url": "https://bing.biturl.top/?resolution=1366&format=image&index=0&mkt=en-US",
-					"headers": {},
-					"method": "GET"
-				},
-				"formatter": {
-					"format": "none"
-				},
-				"rules": {
-					"type": "none"
-				},
-				"interval": 86400,
-				"description": "Today's Bing wallpaper. Refreshes once a day; no API key required.",
-				"website": "https://github.com/TimothyYe/bing-wallpaper",
-				"author": "Bing / Timothy Ye"
-			},
-			{
 				"id": "b9e3e57c-a3aa-46d9-8537-0e5c22c07e3a",
 				"title": "Quote of the Day",
 				"measure": "English · ZenQuotes",
@@ -90,6 +68,98 @@
 				"description": "An English word from A.Word.A.Day. Open Wordsmith for its definition and pronunciation.",
 				"website": "https://wordsmith.org/words/today.html",
 				"author": "Wordsmith / Anu Garg"
+			},
+			{
+				"id": "81c8a603-e56e-486f-8a81-b7ef404482ec",
+				"title": "Picture of the Day",
+				"measure": "Bing Wallpaper",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://bing.biturl.top/?resolution=1366&format=image&index=0&mkt=en-US",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"widgetDesign": "roundedCard",
+				"widgetAppearance": {
+					"presetId": "custom",
+					"small": {
+						"background": {
+							"shape": "roundedRect",
+							"fill": { "type": "statusGradient" },
+							"asBackground": true
+						},
+						"elements": [
+							{
+								"kind": "title",
+								"isVisible": false,
+								"frame": { "x": 0.06, "y": 0.045, "width": 0.88, "height": 0.13 },
+								"alignment": "center"
+							},
+							{
+								"kind": "value",
+								"isVisible": true,
+								"frame": { "x": 0.07, "y": 0.185, "width": 0.86, "height": 0.52 },
+								"alignment": "center"
+							},
+							{
+								"kind": "measure",
+								"isVisible": false,
+								"frame": { "x": 0.08, "y": 0.715, "width": 0.84, "height": 0.12 },
+								"alignment": "center"
+							},
+							{
+								"kind": "updated",
+								"isVisible": false,
+								"frame": { "x": 0.08, "y": 0.845, "width": 0.84, "height": 0.11 },
+								"alignment": "center"
+							}
+						]
+					},
+					"medium": {
+						"background": {
+							"shape": "roundedRect",
+							"fill": { "type": "statusGradient" },
+							"asBackground": true
+						},
+						"elements": [
+							{
+								"kind": "title",
+								"isVisible": false,
+								"frame": { "x": 0.05, "y": 0.05, "width": 0.9, "height": 0.13 },
+								"alignment": "leading"
+							},
+							{
+								"kind": "value",
+								"isVisible": true,
+								"frame": { "x": 0.05, "y": 0.19, "width": 0.9, "height": 0.56 },
+								"alignment": "leading"
+							},
+							{
+								"kind": "measure",
+								"isVisible": false,
+								"frame": { "x": 0.05, "y": 0.8, "width": 0.45, "height": 0.12 },
+								"alignment": "leading"
+							},
+							{
+								"kind": "updated",
+								"isVisible": false,
+								"frame": { "x": 0.5, "y": 0.8, "width": 0.45, "height": 0.12 },
+								"alignment": "trailing"
+							}
+						]
+					}
+				},
+				"interval": 86400,
+				"description": "Today's Bing wallpaper. Refreshes once a day; no API key required.",
+				"website": "https://github.com/TimothyYe/bing-wallpaper",
+				"author": "Bing / Timothy Ye"
 			}
 		]
 	},
