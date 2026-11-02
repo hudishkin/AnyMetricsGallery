@@ -1,5 +1,491 @@
 [
 	{
+		"name": "Popular",
+		"tags": "popular,featured,top,популярные,интересное,fear,greed,dog,moon,launch,earthquake,собака,луна,запуск,землетрясение",
+		"metrics": [
+			{
+				"id": "81c8a603-e56e-486f-8a81-b7ef404482ec",
+				"title": "Picture of the Day",
+				"measure": "Bing Wallpaper",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://bing.biturl.top/?resolution=1366&format=image&index=0&mkt=en-US",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"widgetDesign": "roundedCard",
+				"widgetAppearance": {
+					"presetId": "custom",
+					"small": {
+						"background": {
+							"shape": "roundedRect",
+							"fill": {
+								"type": "statusGradient"
+							},
+							"usesResultImageAsBackground": true
+						},
+						"elements": [
+							{
+								"kind": "title",
+								"isVisible": false,
+								"frame": {
+									"x": 0.06,
+									"y": 0.045,
+									"width": 0.88,
+									"height": 0.13
+								},
+								"alignment": "center"
+							},
+							{
+								"kind": "value",
+								"isVisible": true,
+								"frame": {
+									"x": 0.07,
+									"y": 0.185,
+									"width": 0.86,
+									"height": 0.52
+								},
+								"alignment": "center"
+							},
+							{
+								"kind": "measure",
+								"isVisible": false,
+								"frame": {
+									"x": 0.08,
+									"y": 0.715,
+									"width": 0.84,
+									"height": 0.12
+								},
+								"alignment": "center"
+							},
+							{
+								"kind": "updated",
+								"isVisible": false,
+								"frame": {
+									"x": 0.08,
+									"y": 0.845,
+									"width": 0.84,
+									"height": 0.11
+								},
+								"alignment": "center"
+							}
+						]
+					},
+					"medium": {
+						"background": {
+							"shape": "roundedRect",
+							"fill": {
+								"type": "statusGradient"
+							},
+							"usesResultImageAsBackground": true
+						},
+						"elements": [
+							{
+								"kind": "title",
+								"isVisible": false,
+								"frame": {
+									"x": 0.05,
+									"y": 0.05,
+									"width": 0.9,
+									"height": 0.13
+								},
+								"alignment": "leading"
+							},
+							{
+								"kind": "value",
+								"isVisible": true,
+								"frame": {
+									"x": 0.05,
+									"y": 0.19,
+									"width": 0.9,
+									"height": 0.56
+								},
+								"alignment": "leading"
+							},
+							{
+								"kind": "measure",
+								"isVisible": false,
+								"frame": {
+									"x": 0.05,
+									"y": 0.8,
+									"width": 0.45,
+									"height": 0.12
+								},
+								"alignment": "leading"
+							},
+							{
+								"kind": "updated",
+								"isVisible": false,
+								"frame": {
+									"x": 0.5,
+									"y": 0.8,
+									"width": 0.45,
+									"height": 0.12
+								},
+								"alignment": "trailing"
+							}
+						]
+					}
+				},
+				"interval": 86400,
+				"description": "Today's Bing wallpaper. Refreshes once a day; no API key required.",
+				"website": "https://github.com/TimothyYe/bing-wallpaper",
+				"author": "Bing / Timothy Ye"
+			},
+			{
+				"id": "b9e3e57c-a3aa-46d9-8537-0e5c22c07e3a",
+				"title": "Quote of the Day",
+				"measure": "English · ZenQuotes",
+				"type": "json",
+				"request": {
+					"url": "https://zenquotes.io/api/today",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "0.q"
+				},
+				"interval": 86400,
+				"description": "A daily inspirational quote in English, provided by ZenQuotes. No API key required.",
+				"website": "https://zenquotes.io/",
+				"author": "ZenQuotes"
+			},
+			{
+				"id": "b132be3d-79e0-40bb-bf61-006e8eab84c4",
+				"title": "Fact of the Day",
+				"measure": "English · Trivia",
+				"type": "json",
+				"request": {
+					"url": "https://uselessfacts.jsph.pl/api/v2/facts/today?language=en",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "text"
+				},
+				"interval": 86400,
+				"description": "A curious fact in English, selected daily by Random Useless Facts. No API key required.",
+				"website": "https://uselessfacts.jsph.pl/",
+				"author": "Random Useless Facts"
+			},
+			{
+				"id": "94f79fb2-3f05-4fb2-9347-c3115e064c0d",
+				"title": "Random Cat",
+				"measure": "Cat Photo",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://cataas.com/cat?width=800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random cat from Cat as a Service. Refreshes every 6 hours; manual refresh may bring another cat.",
+				"website": "https://cataas.com/",
+				"author": "Cat as a Service"
+			},
+			{
+				"id": "8276d76e-a2ce-458f-a9ba-cc5b64006851",
+				"title": "Random Photo",
+				"measure": "Photography",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://picsum.photos/800/800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random photograph from Lorem Picsum. Refreshes every 6 hours; manual refresh may change the image.",
+				"website": "https://picsum.photos/",
+				"author": "Lorem Picsum"
+			},
+			{
+				"id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+				"title": "People in Space",
+				"measure": "Right Now",
+				"type": "json",
+				"request": {
+					"url": "http://api.open-notify.org/astros.json",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 0,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "number"
+				},
+				"website": "http://open-notify.org",
+				"author": "Open Notify"
+			},
+			{
+				"id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+				"title": "ISS Velocity",
+				"measure": "km/h",
+				"type": "json",
+				"request": {
+					"url": "https://api.wheretheiss.at/v1/satellites/25544",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 1,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "velocity"
+				},
+				"website": "https://wheretheiss.at",
+				"author": "Where the ISS at?"
+			},
+			{
+				"id": "6db1649a-e9fd-49a2-94e5-eaf5c646dd5a",
+				"title": "Bitcoin",
+				"measure": "Price, USD",
+				"type": "json",
+				"request": {
+					"url": "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 3,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "bitcoin.usd"
+				},
+				"website": "https://coingecko.com/",
+				"author": "CoinGecko"
+			},
+			{
+				"id": "3b09f044-e157-43b4-9e21-03c64c7e0f9c",
+				"title": "Ethereum",
+				"measure": "Price, USD",
+				"type": "json",
+				"request": {
+					"url": "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=ethereum",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 3,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "ethereum.usd"
+				},
+				"website": "https://coingecko.com/",
+				"author": "CoinGecko"
+			},
+			{
+				"id": "0000d981-d61c-466e-987b-275404d7cc39",
+				"title": "Dogecoin",
+				"measure": "Price, USD",
+				"type": "json",
+				"request": {
+					"url": "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=dogecoin",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 3,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "dogecoin.usd"
+				},
+				"website": "https://coingecko.com/",
+				"author": "CoinGecko"
+			},
+			{
+				"id": "6db1649a-e1fd-49a2-94e1-eaf5c336ff5b",
+				"title": "USD",
+				"measure": "to Ruble",
+				"type": "json",
+				"request": {
+					"url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 2,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "usd.rub"
+				},
+				"website": "https://github.com/fawazahmed0/currency-api"
+			},
+			{
+				"id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+				"title": "My Public IP",
+				"measure": "IP Address",
+				"type": "json",
+				"request": {
+					"url": "https://api.ipify.org?format=json",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"fraction": 0,
+					"format": "currency"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "ip"
+				},
+				"website": "https://www.ipify.org",
+				"author": "ipify"
+			},
+			{
+				"id": "72d174f7-6b4b-4ddc-a787-d54368789fe9",
+				"title": "Fear & Greed",
+				"measure": "Index, 0-100",
+				"type": "json",
+				"request": {
+					"url": "https://api.alternative.me/fng/",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "data.0.value"
+				},
+				"interval": 86400,
+				"description": "Crypto Fear & Greed Index. 0 is extreme fear and 100 is extreme greed. Updates daily; no API key required.",
+				"website": "https://alternative.me/crypto/fear-and-greed-index/",
+				"author": "Alternative.me"
+			},
+			{
+				"id": "23bee10d-70f4-4a81-9361-62d393defa0d",
+				"title": "Random Dog",
+				"measure": "Dog Photo",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://place.dog/800/800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random dog photograph. Refreshes every 6 hours; manual refresh may bring another dog. No API key required.",
+				"website": "https://place.dog/",
+				"author": "Place Dog"
+			},
+			{
+				"id": "6f481ac8-904b-4a62-9f71-21b6920b20a5",
+				"title": "Moon Phase",
+				"measure": "Current",
+				"type": "json",
+				"request": {
+					"url": "https://wttr.in/?format=j1",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "weather.0.astronomy.0.moon_phase"
+				},
+				"interval": 86400,
+				"description": "Current moon phase name for today. No API key required.",
+				"website": "https://wttr.in/",
+				"author": "wttr.in"
+			},
+			{
+				"id": "c051b191-1cc1-45e6-a876-cf8843b6bef2",
+				"title": "Next Launch",
+				"measure": "Upcoming",
+				"type": "json",
+				"request": {
+					"url": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=1",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "results.0.name"
+				},
+				"interval": 21600,
+				"description": "Name of the next upcoming orbital launch. No API key required.",
+				"website": "https://thespacedevs.com/",
+				"author": "The Space Devs"
+			},
+			{
+				"id": "8f4102fd-437b-4956-908f-57c3766e0cd8",
+				"title": "Earthquake",
+				"measure": "Past Month",
+				"type": "json",
+				"request": {
+					"url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "features.0.properties.title"
+				},
+				"interval": 21600,
+				"description": "Latest significant earthquake from the past month: magnitude and place. No API key required.",
+				"website": "https://earthquake.usgs.gov/",
+				"author": "USGS"
+			}
+		]
+	},
+	{
 		"name": "Daily Inspiration",
 		"tags": "daily,today,inspiration,picture,wallpaper,bing,quote,phrase,fact,word,english,картинка дня,фото дня,фраза дня,цитата дня,факт дня,слово дня,вдохновение",
 		"metrics": [
@@ -93,7 +579,7 @@
 						"background": {
 							"shape": "roundedRect",
 							"fill": { "type": "statusGradient" },
-							"asBackground": true
+							"usesResultImageAsBackground": true
 						},
 						"elements": [
 							{
@@ -126,7 +612,7 @@
 						"background": {
 							"shape": "roundedRect",
 							"fill": { "type": "statusGradient" },
-							"asBackground": true
+							"usesResultImageAsBackground": true
 						},
 						"elements": [
 							{
@@ -165,8 +651,30 @@
 	},
 	{
 		"name": "Random Discoveries",
-		"tags": "random,photo,picture,cat,cats,advice,affirmation,motivation,inspiration,случайное фото,картинка,кот,котик,совет,аффирмация,поддержка,мотивация",
+		"tags": "random,photo,picture,cat,cats,dog,dogs,advice,affirmation,motivation,inspiration,случайное фото,картинка,кот,котик,собака,совет,аффирмация,поддержка,мотивация",
 		"metrics": [
+			{
+				"id": "23bee10d-70f4-4a81-9361-62d393defa0d",
+				"title": "Random Dog",
+				"measure": "Dog Photo",
+				"type": "web",
+				"resultKind": "image",
+				"request": {
+					"url": "https://place.dog/800/800",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none"
+				},
+				"interval": 21600,
+				"description": "A random dog photograph. Refreshes every 6 hours; manual refresh may bring another dog. No API key required.",
+				"website": "https://place.dog/",
+				"author": "Place Dog"
+			},
 			{
 				"id": "8276d76e-a2ce-458f-a9ba-cc5b64006851",
 				"title": "Random Photo",
@@ -610,7 +1118,7 @@
 	},
 	{
 		"name": "Space",
-		"tags": "space,iss,astronauts,nasa,orbit,station",
+		"tags": "space,iss,astronauts,nasa,orbit,station,moon,phase,launch,rocket,луна,фаза,запуск,ракета",
 		"metrics": [
 			{
 				"id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
@@ -695,6 +1203,78 @@
 				},
 				"website": "https://wheretheiss.at",
 				"author": "Where the ISS at?"
+			},
+			{
+				"id": "6f481ac8-904b-4a62-9f71-21b6920b20a5",
+				"title": "Moon Phase",
+				"measure": "Current",
+				"type": "json",
+				"request": {
+					"url": "https://wttr.in/?format=j1",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "weather.0.astronomy.0.moon_phase"
+				},
+				"interval": 86400,
+				"description": "Current moon phase name for today. No API key required.",
+				"website": "https://wttr.in/",
+				"author": "wttr.in"
+			},
+			{
+				"id": "c051b191-1cc1-45e6-a876-cf8843b6bef2",
+				"title": "Next Launch",
+				"measure": "Upcoming",
+				"type": "json",
+				"request": {
+					"url": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=1",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "results.0.name"
+				},
+				"interval": 21600,
+				"description": "Name of the next upcoming orbital launch. No API key required.",
+				"website": "https://thespacedevs.com/",
+				"author": "The Space Devs"
+			}
+		]
+	},
+	{
+		"name": "Earth",
+		"tags": "earth,earthquake,quake,seismic,usgs,землетрясение,магнитуда",
+		"metrics": [
+			{
+				"id": "8f4102fd-437b-4956-908f-57c3766e0cd8",
+				"title": "Earthquake",
+				"measure": "Past Month",
+				"type": "json",
+				"request": {
+					"url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "features.0.properties.title"
+				},
+				"interval": 21600,
+				"description": "Latest significant earthquake from the past month: magnitude and place. No API key required.",
+				"website": "https://earthquake.usgs.gov/",
+				"author": "USGS"
 			}
 		]
 	},
@@ -746,8 +1326,30 @@
 	},
 	{
 		"name": "Cryptocurrency",
-		"tags": "crypto,coins,eth,bitcoin",
+		"tags": "crypto,coins,eth,bitcoin,fear,greed",
 		"metrics": [
+			{
+				"id": "72d174f7-6b4b-4ddc-a787-d54368789fe9",
+				"title": "Fear & Greed",
+				"measure": "Index, 0-100",
+				"type": "json",
+				"request": {
+					"url": "https://api.alternative.me/fng/",
+					"headers": {},
+					"method": "GET"
+				},
+				"formatter": {
+					"format": "none"
+				},
+				"rules": {
+					"type": "none",
+					"parseRules": "data.0.value"
+				},
+				"interval": 86400,
+				"description": "Crypto Fear & Greed Index. 0 is extreme fear and 100 is extreme greed. Updates daily; no API key required.",
+				"website": "https://alternative.me/crypto/fear-and-greed-index/",
+				"author": "Alternative.me"
+			},
 			{
 				"id": "6db1649a-e9fd-49a2-94e5-eaf5c646dd5a",
 				"title": "Bitcoin",
